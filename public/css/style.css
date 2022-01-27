@@ -21,6 +21,14 @@ header   {
         text-align: center;
     }
 
+    header div.barramenu {
+        text-align: center;
+    }
+    
+    header div input {
+        margin-left: 5%;
+    }
+
     .boton { font-size:20px;
         transition: border-radius,200ms;
     }
@@ -68,76 +76,91 @@ header   {
             border-radius: 0%;
         }
 
-
+    
+        .nav1{
+            margin-bottom: 30px;
+        }
+        .banner {
+            margin-top: 5px;
+        }    
+    
+        button {
+            border-radius: 8px;
+            margin: auto;
+        }
+        
+        .fa-search{
+            background-color:white;
+            border-radius: 5px;
+            padding: 5px;
+            ;
+        }
+    
+        /*div{ 
+            text-align: center;
+            } */
+    
+        .fa-bars{
+        background-color:  rgb(167, 175, 53);
+        padding: 5px;
+        border-radius: 5px;
+        }
+    
+        .banner {
+            width: 100%;
+        }
+    
+        .imagen {
+            width: 100%;
+        }
+    
+    
+        main {
+            margin: auto;
+            width: 90%;
+        }
+    
+        article {
+            margin-top: 10px;
+        }
     
 
-@media (min-width:460px){
 
-
-
-}
 
 @media (min-width:425px){
-.barramenu{
+.fa-bars{
    
     display: none;
 }
 
 .fa-search {
-    color: chartreuse;
+    color: black;
 }
 
 body {
-    background-color: crimson;
+    background-color: #ebebeb;
 }
 
 
 }
 
 @media (min-width:768px){
-.boton {display: none;}
-}
+    
+    header div.barramenu {
+        display: none;
+    }
 
-    .banner {
-        margin-top: 5px;
-    }    
 
-    button {
-        border-radius: 8px;
-        margin: auto;
+    header nav ul {
+        font-size: 20px;
     }
     
-    .fa-search{
-        background-color:white;
-        border-radius: 5px;
-        padding: 5px;
-        ;
+    .ultimo{
+        margin-bottom: px;
     }
-
-    div{ 
-        text-align: center;
-        }
-
-    .fa-bars{
-    background-color:  #03264C;
-    padding: 5px;
-    border-radius: 5px;
+    header {
+        margin-bottom: 10px;
     }
-
-    .banner {
-        width: 100%;
     }
+    
 
-    .imagen {
-        width: 100%;
-    }
-
-
-    main {
-        margin: auto;
-        width: 90%;
-    }
-
-    article {
-        margin-top: 10px;
-    }
