@@ -125,6 +125,39 @@ header   {
         }
     
 
+        footer{
+            background-color: #f1f1f1;
+            padding-top: 15px;
+        }
+        
+        .articulo-footer{
+            background-color: #f1f1f1;
+            text-align: center;
+            margin: 25px 8px;
+        }
+        
+        .articulo-footer i{
+            background-color: #f1f1f1;
+            color: #005dc0;
+            font-size: 50px;
+            margin-bottom: 10px
+        }
+        
+        .articulo-footer h4{
+            background-color: #f1f1f1;
+            margin-bottom: 8px
+        }
+        
+        .articulo-footer p{
+            background-color: #f1f1f1;
+        }
+        
+        .copyright{
+            background-color: #f1f1f1;
+            text-align: center;
+            padding-bottom: 25px;
+        }
+        
 
 
 @media (min-width:425px){
